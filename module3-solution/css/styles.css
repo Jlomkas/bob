@@ -1,0 +1,21 @@
+body {
+    background-color: #f4f4f4;
+}
+
+/* Make the mobile dropdown menu background distinct from the rest of the content */
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        background-color: #ffffff; 
+        border-top: 1px solid #e7e7e7;
+    }
+}
+
+/* The Really Tall Section */
+.tall-section {
+    height: 1000px; /* Forces scrolling as requested */
+    background-color: #d1ecf1; /* Distinguishes it from the body */
+    border: 1px solid #bee5eb;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
